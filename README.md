@@ -8,11 +8,12 @@ A lightweight **LAN-based emergency alert system** designed and developed by **A
 ## Features
 - Instant broadcast alerts across **LANs/VLANs** (uses `<broadcast>`)
 - Supports **Duress Alerts** and **Custom Messages**
-- Built-in **visual + audio alert system** 🔊  
+- Built-in **visual + audio alert system**   
   (sound is embedded in the EXE — no separate files required)
 - Receiver auto-starts for all users
 - Works **offline** — no internet dependency
 - Compact, portable, and efficient EXE build (no install needed)
+- **Open Source** under MIT License
 
 ---
 
@@ -30,11 +31,21 @@ Copy-Item $source -Destination $startup -Force
 
 **Usage**
 
-Sender: Click Duress Alert or type a custome message
+**Sender:**
 
-Receiver: Displays alert pop-up with flashing window and repeating alert sound
+Click "Duress Alert" for an emergency broadcast
 
-Works seamlessly across all subnets/VLANs where receiver is running.
+Or enter a custom message and click Send Custom Message
+
+**Receiver:**
+
+Displays a full-screen red alert with flashing text
+
+Plays a repeating siren until Acknowledge Alert is clicked
+
+Shows sender name, PC, and timestamp
+
+Works seamlessly across all subnets/VLANs where the receiver is running.
 
 **Tech Details**
 
