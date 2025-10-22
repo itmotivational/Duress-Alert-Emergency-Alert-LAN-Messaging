@@ -49,11 +49,13 @@ Works seamlessly across all subnets/VLANs where the receiver is running.
 
 **Tech Details**
 
-Built in Python 3.12
+Language: Python 3.12
 
-Uses socket for UDP broadcasting and tkinter for UI
+UI: Tkinter
 
-Built into standalone .exe using PyInstaller
+Networking: UDP Broadcast (socket)
 
-Fully self-contained — no runtime or dependencies needed
+Packaging: PyInstaller
+
+License: MIT
 
