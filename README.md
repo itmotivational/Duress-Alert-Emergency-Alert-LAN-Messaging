@@ -37,3 +37,13 @@ Receiver: Displays alert pop-up with flashing window and repeating alert sound
 
 Works seamlessly across all subnets/VLANs where receiver is running.
 
+**Tech Details**
+
+Built in Python 3.12
+
+Uses socket for UDP broadcasting and tkinter for UI
+
+Built into standalone .exe using PyInstaller
+
+Fully self-contained — no runtime or dependencies needed
+
